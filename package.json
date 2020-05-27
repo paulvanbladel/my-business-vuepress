@@ -12,7 +12,7 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs",
     "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs --host localhost"
   },
   "author": "",
