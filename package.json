@@ -1,0 +1,20 @@
+{
+  "name": "my-business-vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs --host localhost"
+  },
+  "author": "",
+  "license": "ISC"
+}
